@@ -914,6 +914,7 @@ body {
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: .5px;
+    display: flex;
     justify-content: flex-end
 }
 
