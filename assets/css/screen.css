@@ -907,7 +907,9 @@ body {
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: .5px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    display: flex;
+    justify-contecnt: flex-start
 }
 
 .read-more {
