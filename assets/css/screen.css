@@ -910,6 +910,13 @@ body {
     text-transform: uppercase
 }
 
+.read-more {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    justify-content: flex-end
+}
+
 @media (min-width:795px) {
     .page-homepage .post-feed .post-card:nth-child(6n+1):not(.no-image) {
         -ms-flex: 1 1 100%;
