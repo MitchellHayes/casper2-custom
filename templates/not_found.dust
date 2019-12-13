@@ -38,21 +38,6 @@ This error template is used for all 400/500 errors which might occur on your sit
 
             </div>
         </main>
-
-        {@getPosts count="3"}
-            {?posts}
-            <aside class="outer">
-                <div class="inner">
-                    <div class="post-feed">
-                        {#posts}
-                            {>"partials/post-card" noAuthor="true"/}
-                        {/posts}
-                    </div>
-                </div>
-            </aside>
-            {/posts}
-        {/getPosts}
-
     </div>
 </body>
 </html>
