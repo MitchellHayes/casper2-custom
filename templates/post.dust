@@ -57,8 +57,6 @@ into the {body} of the default.hbs template !}
                         </section>
                     </section>
                     <div class="post-full-footer-right">
-                        <a class="share-button share-button-twitter" href="https://twitter.com/intent/tweet?text={Settings.title|uc}&amp;url={@url absolute="true"/}">Twitter</a>
-                        <a class="share-button share-button-facebook" href="https://www.facebook.com/sharer/sharer.php?u={@url absolute="true"/}">Facebook</a>
                         <a class="author-card-button" href="{@url type="author" username=username/}">Read More</a>
                     </div>
 
