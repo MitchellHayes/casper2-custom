@@ -36,14 +36,6 @@
                 {#posts}
                     {! The tag below includes the markup for each post - partials/post-card.hbs !}
                     {>"partials/post-card"/}
-                 {:else}
-                    {! No matching posts so show recent ones instead !}
-                    {@getPosts count="10" offset="0" sortBy="name" sortOrder="desc"}
-                        {#posts}
-                            {>"partials/post-card"/}
-                        {/posts}
-                    {/getPosts}
-                {/posts}
             </div>
         </div>
     </main>
